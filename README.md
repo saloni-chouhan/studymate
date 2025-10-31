@@ -1,24 +1,56 @@
-# README
+📘 StudyMate – Your Personal Learning Companion
+🧠 Overview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+StudyMate helps you organize and track your study goals efficiently.
+From creating topics and adding notes to measuring progress — StudyMate keeps your learning journey focused and motivating.
 
-Things you may want to cover:
+⚙️ Tech Stack
 
-* Ruby version
+Ruby on Rails 7
 
-* System dependencies
+PostgreSQL
 
-* Configuration
+Docker + Docker Compose
 
-* Database creation
+RSpec (to be added soon)
 
-* Database initialization
+🚀 Getting Started
+git clone https://github.com/<your-username>/studymate.git
+cd studymate
+docker-compose build
+docker-compose up
 
-* How to run the test suite
+📊 Models Overview
 
-* Services (job queues, cache servers, search engines, etc.)
+User → has many topics & notes
 
-* Deployment instructions
+Category → has many topics
 
-* ...
+Topic → belongs to user & category, has many notes
+
+Note → belongs to user & topic
+
+🧩 Upcoming Features
+
+Authentication system (Day 2)
+
+CRUD for Topics
+
+Notes management
+
+Progress tracking dashboard
+
+Admin panel
+
+API endpoints
+
+✅ End of Day 1 Goal:
+
+Rails app running via Docker
+
+Models + DB ready
+
+GitHub repo live
+
+Project documented
+
